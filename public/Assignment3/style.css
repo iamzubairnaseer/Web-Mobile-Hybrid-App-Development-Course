@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: greenyellow;
+}
+
+header{
+    background-color: royalblue;
+    height: 50px;
+}
+
+header .container, nav .container{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.icon img{
+    width: 20px;
+}
+
+.icon a{
+    padding: 5px 5px;
+    margin: 0px 5px;
+}
+
+.icon a:hover{
+    background-color:blue;
+}
+
+.container .heading{
+    display: inline-block;
+    color: white;
+    margin: 0px 85px;
+}
+
+.butt{
+    display: inline-block;
+}
+
+.butt a{
+    text-decoration: none;
+    color: lightgreen;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid limegreen;
+    font-size: 12px;
+}
+
+nav{
+    background-color: whitesmoke;
+}
+
+nav .image{
+    display: inline-block;
+}
+
+nav .nav{
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.active{
+    background-color: royalblue;
+    border-radius: 10px;    
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+
+.nav ul li a:hover,.nav ul li select:hover {
+    background-color: royalblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav select{
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px 5px;
+}
+
+.nav option{
+    background-color: whitesmoke;
+}
+
+.head-image{
+    background-image: url('Assets/images/saylaniContact.jpeg');
+    height: 337px;
+}
+
+.line{
+    width: 90%;
+    margin: 10px auto;
+    background-color: royalblue;
+}
+
+.line p{
+    padding: 5px 0px;
+}
+
+.line a{
+    text-decoration: none;
+}
+
+.intro, .doing{
+    background-color: whitesmoke;
+}
+
+.intro-container{
+    width:80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.intro-container .heading, .doing-container .heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intro-container .heading h1, .doing-container .heading h1{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;    
+    margin-bottom: 10px;
+}
+
+.image::before{
+    content: "";
+    background: greenyellow;
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: relative;
+    top: 580px;
+    left: 530px;
+}
+
+.image::after{
+    content: "";
+    background: greenyellow;
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 640px;
+    left: 700px;
+}
+
+.para p{
+    color: gray;
+    font-size: 108%;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.counter{
+    background-color: royalblue;
+}
+
+.counter-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.count{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 50px 20px;
+}
+
+.count img{
+    width: 50px;
+}
+
+.count h1{
+    font-size: 64px;
+    font-family: cursive;
+}
+
+.count h5{
+    margin-top: 10px;
+}
+
+.doing-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.doings{
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+    box-shadow: 2px 2px 8px lightgray;
+}
+
+.doings h2{
+    text-transform: uppercase;
+    color: royalblue;
+    margin-top: 10px;
+}
+
+.mission-container{
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.mission-projects{
+    width: 65%;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.mission-projects h2,.upcommings h2{
+    color: royalblue;
+    margin-bottom: 5px;
+}
+
+.projects{
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 20px 20px;
+    border: 1px solid lightgray;
+}
+
+.projects span{
+    color: royalblue;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 40px 40px;
+}
+
+.upcommings{
+    width:30%;
+    float: left;
+}
+
+.upcommings .content{
+    margin-top: 10px;
+    color: gray;
+}
+
+.upcommings .content p{
+    margin-top: 10px;;
+}
+
+.gallery{
+    clear: left;
+}
+
+.gallery-container{
+    width:90%;
+    margin:0 auto;
+}
+
+.gallery-heading{
+    text-align:center ;
+    text-transform: uppercase;
+}
+
+.gallery-heading h1{
+    color:royalblue;
+    margin-bottom: 10px;
+}
+
+.gallery-image{
+    padding: 30px 0px;
+    margin-bottom: 150px;
+}
+
+.gallery-image img{
+    width: 230px;
+}
+
+.contact{
+    background-color:#25272e;
+    overflow: hidden;
+}
+
+.contact-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.address{
+    width: 30%;
+    float: left;
+    color: gray;
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+.address img{
+    width: 15px;
+}
+
+.links{
+    width: 30%;
+    float: left;
+    color: white;
+    margin-right: 40px;
+}
+
+.links p, .connect p{
+    margin-bottom: 10px;
+}
+
+.connect{
+    width:30%;
+    float:left;
+    color: white;
+}
+
+
+.connect img{
+    width: 18px;
+    background-color: royalblue;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.footer{
+    background-color: royalblue;
+}
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: white;
+    font-size: 12px;
+}

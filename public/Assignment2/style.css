@@ -1,0 +1,45 @@
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: plum;
+    text-decoration: underline;
+}
+
+.form{
+    width: 60%;
+    margin: auto;
+    font-size: 120%;
+    background-color: plum;
+    border: solid 1px purple;    
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.field{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.label,.label+div{
+    display: inline-block;
+}
+
+.label{
+    width:21%;
+    text-transform: uppercase;
+}
+
+.hobby-input{
+    width: 48%;
+}
+
+.table-text-cen,.input-button{
+    text-align: center;
+}
+
+.input-button input,.input-button button{
+    border-radius: 2px;
+}

@@ -1,0 +1,20 @@
+.image{
+    text-align: center;
+    margin-top: 60px;
+}
+img{
+    width:20%
+}
+
+figcaption{
+    margin-top: 10px;
+    font-size: 320%;
+    color: lawngreen;
+}
+
+#submitted{
+    text-align: center;
+    font-size: 200%;
+    color: purple;
+    font-weight: bold;
+}
