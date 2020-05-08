@@ -10,7 +10,6 @@ span{
 
 header{
     background-color: royalblue;
-    height: 50px;
 }
 
 header .container, nav .container{
@@ -223,6 +222,7 @@ nav .nav{
 }
 
 .mission-container{
+    display: flex;
     width: 90%;
     margin: 0px auto;
     padding: 50px 0;
@@ -275,6 +275,7 @@ nav .nav{
 }
 
 .gallery-container{
+    /* display: flex; */
     width:90%;
     margin:0 auto;
 }
@@ -290,6 +291,7 @@ nav .nav{
 }
 
 .gallery-image{
+    display: flex;
     padding: 30px 0px;
     margin-bottom: 150px;
 }
@@ -304,6 +306,7 @@ nav .nav{
 }
 
 .contact-container{
+    display: flex ;
     width: 90%;
     margin: 0 auto;
     padding: 50px 10px;
@@ -356,4 +359,75 @@ nav .nav{
     padding: 10px 0;
     color: white;
     font-size: 12px;
+}
+
+@media (max-width:769px){
+
+    header .container{
+        text-align: center;
+    }
+
+    header .heading{
+        padding: 10px 0px;
+    }
+
+
+    nav .container .image{
+       display:none;
+   } 
+
+   nav .nav{
+       width: 100%;
+        margin-left: 0;
+    }
+
+   .counter-container{
+       text-align: center;
+   }
+
+   .doing-container{
+       text-align: center;
+   }
+
+   .mission-container{
+        flex-direction: column;
+    }
+
+    .mission-projects{
+        width:100%;
+    }
+
+
+   .upcommings{
+       width: 100%;
+   }
+
+   .gallery-image{
+       flex-direction: column;
+   }
+
+   .gallery-image img{
+       width: 100%;
+   }
+
+   .contact-container{
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .address, .links, .connect{
+       width: 100%;
+   }
+
+   .links, .connect{
+       margin-top: 10px;
+   }
+
+    .links hr{
+        display: none;
+    }
+
+    .footer-container{
+        text-align: center;
+    }
 }
