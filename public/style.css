@@ -1,11 +1,23 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: url('assets/fonts/Pacifico-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Sourcesp';
+    src: url('assets/fonts/SourceSansPro-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Sourcesp;
 }
 
-.header{
+
+/* .header{
     background-color: royalblue;
-}
+} */
 
 .head-container{
     display: flex;
@@ -27,7 +39,37 @@
 }
 
 .heading h1{
-    color: lightgray;
+    color: #303137;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:100px 0px;
+}
+
+.avatar-image img{
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+
+.avatar-container h1{
+    font-family: Pacifico;
+    font-size: 64px;
+    color: #303137;
+    /* text-transform: uppercase; */
+}
+
+.avatar-container h1 span{
+    font-family: Pacifico;
+    color: #66B6D3;
 }
 
 .assigment{
