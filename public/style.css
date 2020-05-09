@@ -58,6 +58,12 @@
     border-radius: 50%;
     max-width: 200px;
     width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.avatar-image img:hover{
+    border-radius: 5px;
+    transform: scale(1.02);
 }
 
 .avatar-container h1{
@@ -73,6 +79,9 @@
 }
 
 .assigment{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     margin-top: 20px;
     background-color: whitesmoke;
     padding-top: 50px;
@@ -142,4 +151,21 @@
 .foot a:hover{
     color: gray;
     border-bottom: 1px solid gray;
+}
+
+@media (max-width:769px){
+    
+    .head-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .assigments{
+        width: 100%;
+
+    }
+
+    .foot{
+        text-align: center;
+    }
 }
