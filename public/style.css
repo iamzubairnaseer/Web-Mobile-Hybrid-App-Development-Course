@@ -14,19 +14,17 @@
     font-family: Sourcesp;
 }
 
-
-/* .header{
-    background-color: royalblue;
-} */
+.header{
+    display: flex;
+}
 
 .head-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 1140px;
     margin: 0px auto;
-    margin-bottom: 20px;
     /* padding: 10px 0px; */
 }
 
@@ -70,7 +68,6 @@
     font-family: Pacifico;
     font-size: 64px;
     color: #303137;
-    /* text-transform: uppercase; */
 }
 
 .avatar-container h1 span{
@@ -162,7 +159,6 @@
 
     .assigments{
         width: 100%;
-
     }
 
     .foot{
