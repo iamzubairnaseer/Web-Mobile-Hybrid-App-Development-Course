@@ -102,10 +102,13 @@ option{
 }
 
 .slides{
-    width: 80%;
+    max-width: 1140px;
+    width:100%;
     height: 450px;
-    animation: animate 16s ease-in-out infinite;
-    background-size: 1140px 450px; 
+    animation: animate 60s ease-in-out infinite;
+    /* background-size: 1140px 450px;  */
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
 }
 
 .headline, .counter{
