@@ -28,22 +28,18 @@ span{
     color:#303137;
 }
 
-.icons{
-    margin-top: 5px;
+.title h1 a{
+    text-decoration: none;
+    color: #303137;
+    font-family: Pacifico;
 }
 
-.icons a{
-    padding: 5px;
-    padding-top: 15px;
+.nam{
+    color: limegreen;
 }
 
-.icons a:hover{
-    background-color: #66B6D3;
-}
-
-.icons a img{
-    max-width:25px;
-    width: 100%;
+.message, .rollNo{
+    margin-top: 12px;
 }
 
 .avatar{
@@ -63,7 +59,7 @@ span{
 
 .image img:hover{
     border-radius: 15px;
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
 
 .name h1{
@@ -139,4 +135,55 @@ span{
 .details a:hover{
     color: white;
     background-color: #66B6D3;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #303137;
+}
+
+.footer-container{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.icons{
+    margin-top: 8px;
+}
+
+.icons a{
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.icons a:hover{
+    background-color: #66B6D3;
+}
+
+.icons a img{
+    max-width:25px;
+    width: 100%;
+}
+
+.copyright{
+    margin-top: 8px;
+}
+
+.copyright p{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 24px;
+}
+
+.copyright p a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.copyright p a:hover{
+    color: #66B6D3;
 }
