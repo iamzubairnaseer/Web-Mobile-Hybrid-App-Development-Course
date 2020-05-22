@@ -21,8 +21,7 @@ span{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    max-width:1140px;
-    width: 100%;
+    width: 85%;
 }
 
 .icons, .message, .dono{
@@ -150,8 +149,7 @@ option{
 }
 
 .para{
-    max-width: 900px;
-    width: 100%;
+    width: 75%;
     margin-top: 20px;
 }
 
@@ -258,8 +256,8 @@ option{
 }
 
 .mission-content{
-    max-width:750px;
-    width: 100%;
+    max-width:850px;
+    width: 85%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -277,8 +275,8 @@ option{
 }
 
 .upcoming{
-    max-width: 270px;
-    width: 100%;
+    max-width: 250px;
+    width: 85%;
 }
 
 .upcoming p{
@@ -293,7 +291,7 @@ option{
 }
 
 .image-gallery .container{
-    justify-content: stretch;
+    justify-content: center;
     margin: 20px 0px;
 }
 
@@ -336,13 +334,13 @@ option{
 }
 
 .useful-links, .connect-us{
-    max-width: 300px;
-    width: 100%;
+    max-width: 353px;
+    width: 85%;
 }
 
 .connect-us a img{
-    max-width: 18px;
-    width: 100%;
+    max-width: 22px;
+    width: 85%;
 }
 
 .connect-us a{
