@@ -34,6 +34,11 @@ span{
     font-family: Pacifico;
 }
 
+.title h1 a:hover{
+    border-bottom: 2px solid royalblue;
+    border-radius: 50%;
+}
+
 .nam{
     color: limegreen;
 }
@@ -181,9 +186,9 @@ span{
 
 .copyright p a{
     text-decoration: none;
-    color: antiquewhite;
+    color: black;
 }
 
 .copyright p a:hover{
-    color: #66B6D3;
+    color: antiquewhite;
 }
