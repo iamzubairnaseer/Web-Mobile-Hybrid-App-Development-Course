@@ -1,0 +1,99 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: url('Assets/fonts/Pacifico-Regular.ttf');
+}
+
+.agents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Assets/agents-bg.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.agents>h1{
+    font-family: Pacifico;
+    text-transform: uppercase;
+    color: #303137;
+}
+
+.agent-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.agent{
+    margin: 20px 0px;
+}
+
+.agent>img{
+    width: 300px;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+}
+
+.agent>img:hover{
+    border-radius: 18px;
+    transform: scale(1.05);
+    border: 1px solid #66B6D3;
+}
+
+.agent-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgrey;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+}
+
+.agent-details h2{
+    align-self: center;
+    color: #66B6D3;
+}
+
+.agent-details h3{
+    color: #303137;
+}
+
+.agent-details img{
+    width: 20px;
+}
+
+.agent-details>p{
+    display: flex;
+    align-content: center;
+}
+
+.agent-details>p a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #303137;
+}
+
+.agent-details>p a:hover{
+    color: black;
+}
+
+.agent-details p+p{
+    align-self: center;
+}
+
+.agent-details p+p a{
+    background-color: #66B6D3;
+    color: #f9f9f9;
+    padding: 5px 8px;
+    border-radius:18px ;
+}
+
+.agent-details p+p a:hover{
+    background-color: #ff2233;
+}

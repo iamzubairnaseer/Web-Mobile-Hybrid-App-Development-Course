@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'ssp';
+    src: url('fonts/SourceSansPro-Regular.ttf');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(rgba(102,182,211,0.8),rgba(102,182,211,0.8)),url('Assets/bg-01.jpg');
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.content{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+}
+
+.address h2,.contact-us h2{
+    color: #303137;
+}
+
+.address p{
+    color: #f9f9f9;
+}
+
+.mail img{
+    background-color: transparent;
+}
+
+.form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px; */
+}
+
+.heading{
+    padding:20px 0px;
+}
+
+.heading h2{
+    font-family: ssp;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+}
+
+input,textarea{
+    font-size: 16px;
+    font-weight: bold;
+    color: #303137;
+    background-color: lightgray;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 1px solid #66B6D3;
+}
+
+.form a{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: royalblue;
+    color: #f9f9f9;
+    margin-top: 10px;
+    padding: 5px 0px;
+    border-radius: 18px;
+    transition: 1s;
+}
+
+.form a:hover{
+    background-color: #303137;
+    padding: 5px;
+}
+
+/* .form a img{
+    padding-left: 20px;
+} */
+
+@media screen and  (max-width:628px){
+    .map{
+        order:1;
+    }
+}
