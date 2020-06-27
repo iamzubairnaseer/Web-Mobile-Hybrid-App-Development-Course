@@ -1,0 +1,59 @@
+@font-face{
+    font-family: ssp;
+    src: url("assets/font/SourceSansPro-Regular.ttf");
+}
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    margin: 0 auto;
+    /* height: 540px; */
+}
+
+div{
+    margin: 5px 0;
+}
+
+input{
+    width: 390px;
+    font-family: ssp;
+    background-color: whitesmoke;
+    font-size: 32px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: right;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button img{
+    max-width: 80px;
+    width: 100%;
+}
+
+.e{
+    height: 187px;
+}
+
+.last{
+    width: 95%;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.re{
+    text-align: center;
+    position: relative;
+    top: -110px;
+    right: 50px;
+}
