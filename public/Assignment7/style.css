@@ -10,7 +10,7 @@
     width: 100%;
     border: 1px solid lightgrey;
     background-color: whitesmoke;
-    padding: 10px 0px;
+    padding: 10px 5px;
     margin: 0 auto;
     /* height: 540px; */
 }
@@ -20,11 +20,11 @@ div{
 }
 
 input{
-    width: 390px;
+    width: 100%;
     font-family: ssp;
     background-color: whitesmoke;
     font-size: 32px;
-    padding: 5px;
+    /* padding: 5px; */
     font-weight: bold;
     text-align: right;
     border: none;
@@ -33,6 +33,12 @@ input{
 
 input:focus{
     outline: none;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 button img{
@@ -45,7 +51,7 @@ button img{
 }
 
 .last{
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content:space-around;
     align-items: flex-start;
