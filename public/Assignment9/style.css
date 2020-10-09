@@ -40,8 +40,14 @@ button:focus{
     outline: 0;
 }
 
+.btnDelete{
+    display: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .list-container{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .list{
