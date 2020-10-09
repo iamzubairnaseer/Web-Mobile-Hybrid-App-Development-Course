@@ -1,0 +1,68 @@
+.main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
+    max-width: 320px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#new-item{
+    width: 250px;
+    font-size: 16px;
+}
+
+#new-item:focus{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.btn{
+    font-size: 16px;
+    background-color: #66B6D3;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+.btn:hover{
+    background-color: royalblue;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.list-container{
+    margin-top: 50px;
+}
+
+.list{
+    display: flex;
+    max-width: 450px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    margin: 0 auto;
+}
+
+.para{
+    margin-left: 20px;
+}
+
+.image{
+    margin-right: 20px;
+}
+
+.image img{
+    width: 20px;
+}
