@@ -94,7 +94,7 @@ span{
 }
 
 .assign{
-    width: 300px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     background-color: lightgrey;
@@ -103,7 +103,7 @@ span{
 }
 
 .assign .image img{
-    width: 300px;
+    width: 310px;
     height: 150px;
 }
 
