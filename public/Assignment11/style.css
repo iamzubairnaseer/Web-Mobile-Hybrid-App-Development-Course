@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 720px;
+}
+
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    /* justify-content: space-between; */
+    width: 80%;
+    height: 500px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.outGoing-messages,.inComing-messages{
+    max-width: 50%;
+    margin: 2.5px 0px;
+}
+
+.outGoing-messages{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.inComing-messages{
+    align-self: flex-start;
+}
+
+.outGoing-messages p,.inComing-messages p{
+    width: fit-content;
+    margin: 0;
+}
+
+.outGoing-messages .userName,.outGoing-messages .sysTime{
+    font-size: 14px;
+}
+
+.outGoing-messages .sysTime{
+    align-self: flex-end;
+}
+
+.outGoing-messages .msg{
+    background-color: #99ffff;
+    padding: 5px;
+    padding-right: 8px;
+    border-radius: 8px;
+    border-bottom-right-radius: 20px;
+}
+
+.inComing-messages .msg{
+    background-color: palevioletred;
+    padding: 5px;
+    padding-left: 8px;
+    border-radius: 8px;
+    border-bottom-left-radius: 20px;
+}
+
+.writeMessage{
+    display: flex;
+    flex: 0;
+}
+
+.inputMessage{
+    width: 100%;
+    font-size: 18px;
+    padding: 4px 5px;
+}
+
+button{
+    font-size: 18px;
+}

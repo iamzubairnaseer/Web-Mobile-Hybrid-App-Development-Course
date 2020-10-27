@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat App</title>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCNIeAShCptpCCD5vW6ABWP0Ad9vg4V0tM",
+          authDomain: "chit-chat-application.firebaseapp.com",
+          databaseURL: "https://chit-chat-application.firebaseio.com",
+          projectId: "chit-chat-application",
+          storageBucket: "chit-chat-application.appspot.com",
+          messagingSenderId: "482144193755",
+          appId: "1:482144193755:web:71bd8901f55ac1b52110fe"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="messages" id="mBox"></div>
+            <div class="writeMessage">
+                <input type="text" class="inputMessage" id="inputMessage" placeholder="Type a message">
+                <button onclick="send()">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
